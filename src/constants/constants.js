@@ -20,12 +20,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Meta Bnb",
-    description: "Metabnb wallet landing page built with React",
-    image: "/images/3.jpg",
-    tags: ["React", "Redux-toolkit"],
-    source: "https://github.com/Fujinzeken/Metabnb",
-    visit: "https://mymetabnb.netlify.app/",
+    title: "Ideabook",
+    description: "Where every thought finds a home",
+    image: "/images/3.png",
+    tags: ["nextjs", "Redux-toolkit", "MongoDB", "Aws"],
+    source: "",
+    visit: "https://ideabook.club/",
     id: 2,
   },
   {
@@ -41,6 +41,6 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Worked as a freelance developer" },
+  { year: 2022, text: "Started Working as a freelance developer" },
   { year: 2023, text: "Worked at Stacksuit" },
 ];
