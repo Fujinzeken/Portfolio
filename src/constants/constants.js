@@ -29,8 +29,7 @@ export const projects = [
   },
   {
     title: "Detecting AI",
-    description:
-      "Detect and check AI-generated content with our powerful AI detection tool. Identify and flag ChatGPT and other AI-generated text. Keep your content AI-free with our AI detection",
+    description: "AI Detector & AI Checker for ChatGPT, Gemini, Claude, & More",
     image: "/images/2.png",
     tags: ["Nextjs", "Tailwind", "Bootstrap"],
     source: "",

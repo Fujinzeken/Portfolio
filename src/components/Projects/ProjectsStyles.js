@@ -26,10 +26,6 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -73,29 +69,6 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
-  overflow-y: auto;
-  flex: 1;
-
-  &::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 3px;
-    &:hover {
-      background: rgba(255, 255, 255, 0.5);
-    }
-  }
-
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.1);
-
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
   }
