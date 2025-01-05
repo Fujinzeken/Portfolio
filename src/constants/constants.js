@@ -44,7 +44,7 @@ export const projects = [
     tags: ["nextjs", "Bootstrap"],
     source: "",
     visit: "https://flashcard-generator.io/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Essaychecker.io",
@@ -53,7 +53,7 @@ export const projects = [
     tags: ["nextjs", "tailwind", "shadcn"],
     source: "",
     visit: "https://essaychecker.io/",
-    id: 2,
+    id: 5,
   },
 ];
 
