@@ -31,7 +31,7 @@ export const projects = [
     title: "Detecting AI",
     description:
       "Detect and check AI-generated content with our powerful AI detection tool. Identify and flag ChatGPT and other AI-generated text. Keep your content AI-free with our AI detection",
-    image: "/images/2.jpg",
+    image: "/images/2.png",
     tags: ["Nextjs", "Tailwind", "Bootstrap"],
     source: "",
     visit: "https://detecting-ai.com/",
