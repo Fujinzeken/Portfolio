@@ -10,13 +10,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Stacksuit",
-    description:
-      "Worked as Fullstack Developer at stacksuit, shuffling between client, server and devops side of things, depending on business needs. Making full use of React, Nodejs, Nestjs,Docker, CI/CD and socket.io",
-    image: "/images/2.png",
-    tags: ["React", "Node.js", "Nestjs", "Socket.io", "MongoDB", "Docker"],
+    title: "Eduzen.ai",
+    description: "Eduzen - AI-Powered Tools for Smarter Studying",
+    image: "/images/4.png",
+    tags: ["Nextjs", "Tailwind", "Bootstrap", "shadcn"],
     source: "#",
-    visit: "https://www.stacksuit.com/",
+    visit: "https://eduzen.ai/",
     id: 1,
   },
   {
@@ -29,13 +28,32 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Huddle Inc",
-    description: "A community building application built with react ",
-    image: "/images/4.jpg",
-    tags: ["React"],
-    source: "https://github.com/Fujinzeken/Huddle",
-    visit: "https://huddleui.netlify.app/",
+    title: "Detecting AI",
+    description:
+      "Detect and check AI-generated content with our powerful AI detection tool. Identify and flag ChatGPT and other AI-generated text. Keep your content AI-free with our AI detection",
+    image: "/images/2.jpg",
+    tags: ["Nextjs", "Tailwind", "Bootstrap"],
+    source: "",
+    visit: "https://detecting-ai.com/",
     id: 3,
+  },
+  {
+    title: "Flashcard-generator",
+    description: "Fast and Easy AI Flashcard Generator for Efficient Learning",
+    image: "/images/5.png",
+    tags: ["nextjs", "Bootstrap"],
+    source: "",
+    visit: "https://flashcard-generator.io/",
+    id: 2,
+  },
+  {
+    title: "Essaychecker.io",
+    description: "EssayChecker - AI-Powered Essay Grading Tool",
+    image: "/images/6.png",
+    tags: ["nextjs", "tailwind", "shadcn"],
+    source: "",
+    visit: "https://essaychecker.io/",
+    id: 2,
   },
 ];
 
@@ -43,4 +61,5 @@ export const TimeLineData = [
   { year: 2021, text: "Started my journey" },
   { year: 2022, text: "Started Working as a freelance developer" },
   { year: 2023, text: "Worked at Stacksuit" },
+  { year: 2024, text: "Started working at Detecting AI" },
 ];
